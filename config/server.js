@@ -7,4 +7,16 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+  router:{
+    routes: [
+      {
+        method: 'GET',
+        path: '/dashboard',
+        handler: 'dashboard.home',
+        config: {
+          policies: [],
+        },
+      },
+    ],
+  },
 });
