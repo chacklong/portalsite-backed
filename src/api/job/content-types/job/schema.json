@@ -44,6 +44,18 @@
     },
     "date": {
       "type": "date"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "diploma": {
+      "type": "enumeration",
+      "enum": [
+        "a高中",
+        "b大专",
+        "c本科",
+        "d硕士"
+      ]
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsuploads",
+  "info": {
+    "singularName": "newsupload",
+    "pluralName": "newsuploads",
+    "displayName": "newsupload"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "demo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
